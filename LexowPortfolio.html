@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Mueller SemiLight, sans-serif;
+        line-height: 1;
+      }
+      .container {
+        position: relative;
+        text-align: center;
+      }
+      .header {
+        font-family: Mueller SemiLight, sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        will-change: transform;
+        transition: 0.4s;
+        display: flex;
+
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        height: 100vh; /* Set a specific height, such as 100% of the viewport height */
+
+        --color: #94ff00;
+        --color-text: black;
+        background-color: transparent; /* or background-color: white; */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.2s;
+      }
+
+      #header::selection {
+        background: var(--color);
+        color: var(--color-text);
+        text-shadow: none;
+      }
+
+      #header img {
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .photo {
+        display: inline-block;
+        text-align: center;
+        box-shadow: none;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        box-shadow: none;
+      }
+     .photo:hover {
+    cursor: pointer;
+}
+      #photo2 {
+        width: 900px;
+       padding: 100px 0 0 0;
+      
+      }
+      #photo3 {
+        height: 750px;
+      }
+
+      .logo {
+        width: 7rem;
+      }
+
+      /* Additional styles for the header and other elements */
+      .header--not-visible,
+      .header--sticking.header--down,
+      .header--up.header--not-visible,
+      .hero__image__img,
+      .logo--inactive,
+      .navigation,
+      .spinner {
+        pointer-events: none;
+      }
+      .sticky {
+        position: fixed;
+        top: 32px;
+        width: 100%;
+      }
+      .sticky + .content {
+        padding-top: 102px;
+      }
+      .slider {
+        width: 100%;
+        height: 800px;
+      }
+      .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    transition: transform 1s linear;
+      }
+    #MariPizzaInsta {
+        height: 750px;
+        
+    }
+
+
+.flexContainer {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start; 
+    display: flex;
+}
+
+#ArtStudio {
+            text-align: center;
+            padding: 300px 0 200px 0;
+            
+           
+      
+}
+#ArtStudio img {
+   
+    
+     box-shadow: 0 0 20px 5px lightgray;
+      display: inline-block
+      
+}
+.image-wrapper {
+   
+     display: inline-block; /* Ensure container only takes the necessary width */
+    box-shadow: -3px -3px 10px blue;
+}
+h2 {
+    font-family: Nimbus Sans Bold,sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.3;
+    text-align: center;
+    
+}
+.carla {
+    text-align: center;
+    padding: 40px 0 200px 0;
+}
+.carla img {
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo" id="photo1">
+        <img
+          src="https://static.wixstatic.com/media/8f4194_f54b08f95a354978a408ec6710fb1cd0~mv2.png/v1/fill/w_1200,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Carla%2BTara%20copy_PNG.png"
+          alt="Photo 1"
+        />
+
+        <div class="header" id="myHeader">LEXOW</div>
+      </div>
+    </div>
+
+
+</div>
+<div >
+    <h2>
+       Graphics & Illustrations 
+    </h2>
+</div>
+<marquee direction="right" behavior="scroll" >
+   <img src="https://static.wixstatic.com/media/8f4194_242e03d7e4a145d994cd15b7c1e4bc4e~mv2.png/v1/crop/x_0,y_609,w_1668,h_1250/fill/w_838,h_628,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f4194_242e03d7e4a145d994cd15b7c1e4bc4e~mv2.png"
+alt="Phooto 2" id="photo2"
+/>
+</marquee>
+
+</div>
+    
+
+      <div class="back">
+        <img
+          src="https://static.wixstatic.com/media/8f4194_71d86068797044479404e2e4378c65bc~mv2.png/v1/fill/w_900,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f4194_71d86068797044479404e2e4378c65bc~mv2.png"
+          alt="Photo 2 Back"
+        />
+      </div>
+    </div>
+    <div class="flexContainer">
+      <img
+        src="https://static.wixstatic.com/media/8f4194_703e1f6d69ca4d408fb62731a9964396~mv2.png/v1/crop/x_0,y_116,w_828,h_1449/fill/w_482,h_846,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f4194_703e1f6d69ca4d408fb62731a9964396~mv2.png"
+        alt="WallLogo"
+        id="photo3"
+      /> 
+      
+
+      <img src="https://static.wixstatic.com/media/8f4194_365cdd39870547149d6e5c88c8380914~mv2.png/v1/fill/w_1200,h_1268,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Pizza_de_la_Katza_Mari_Pizza_Bar.png"
+    
+alt="MariPizzaInsta" 
+id="MariPizzaInsta"
+style="float: right;"
+
+
+      />
+      </div>
+      <div id="ArtStudio">
+        <img src="https://static.wixstatic.com/media/8f4194_5ba7faa552cb44418a1259ddbe7a7f82~mv2.png/v1/crop/x_32,y_744,w_1136,h_1572/fill/w_910,h_1260,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Untitled_Artwork.png";
+        alt="ArtStudio"
+        class = "imageWrapper"
+        
+        />
+      </div>
+<marquee direction="right" behavior="scroll" > 
+    <h2>
+       Photography, Creative Direction, & Editing
+    </h2>
+</marquee>
+<div> 
+<div class="carla">
+    <img src="https://static.wixstatic.com/media/8f4194_73990fbc3d224955895b898ea98d4dce~mv2.png/v1/fill/w_792,h_1190,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/carla_gucci_alt2%20small.png"
+    alt="Carla"
+    class ="carla"
+   
+    />
+</div>
+
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 50 ||
+          document.documentElement.scrollTop > 50
+        ) {
+          document.getElementById("myHeader").style.fontSize = "30px";
+        } else {
+          document.getElementById("myHeader").style.fontSize = "90px";
+        }
+      }
+
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      const photo1 = document
+        .getElementById("photo1")
+        .getElementsByTagName("img")[0];
+
+      photo1.addEventListener("click", function () {
+        changeImage(photo1);
+      });
+
+      function changeImage(photo) {
+        if (
+          photo.src ===
+          "https://static.wixstatic.com/media/8f4194_f54b08f95a354978a408ec6710fb1cd0~mv2.png/v1/fill/w_1200,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Carla%2BTara%20copy_PNG.png"
+        ) {
+          photo.src =
+            "https://static.wixstatic.com/media/8f4194_7279206e8ffb480d957e962cc7402c80~mv2.png/v1/fill/w_1200,h_838,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ClickHeader.png";
+        } else {
+          photo.src =
+            "https://static.wixstatic.com/media/8f4194_f54b08f95a354978a408ec6710fb1cd0~mv2.png/v1/fill/w_1200,h_600,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Carla%2BTara%20copy_PNG.png";
+        }
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+
+  });
+  const MariPizzaInsta = document.getElementById("MariPizzaInsta");
+
+let currentImageIndex = 0;
+
+const imageUrls = [
+    "https://static.wixstatic.com/media/8f4194_365cdd39870547149d6e5c88c8380914~mv2.png/v1/fill/w_1200,h_1268,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Pizza_de_la_Katza_Mari_Pizza_Bar.png",
+    "https://static.wixstatic.com/media/8f4194_569bf7d4bd2c40f1a62cd53570dd3260~mv2.png/v1/fill/w_574,h_846,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8f4194_569bf7d4bd2c40f1a62cd53570dd3260~mv2.png",
+    "https://static.wixstatic.com/media/8f4194_9659b8fb74444438a93c4080e8bd1c72~mv2.png/v1/fill/w_680,h_842,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-11-13%20at%2020_03_15.png"  // Replace with the URL of your third image
+];
+
+MariPizzaInsta.addEventListener("click", function() {
+    MariPizzaInsta.src = imageUrls[currentImageIndex];
+    currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+});
+
+
+</script>
+</body>
+</html>
